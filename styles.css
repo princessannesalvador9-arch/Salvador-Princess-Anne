@@ -1,0 +1,121 @@
+
+/* BODY */
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+
+/* LOGO */
+
+.logo {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* MENU */
+
+.menu a {
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* BUTTON */
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+/* MAIN CONTENT */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+}
+
+
+/* TEXT */
+
+.text {
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.text p {
+    color: black;
+}
+
+.explore {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+/* IMAGE */
+
+.image {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+}
